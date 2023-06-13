@@ -8,10 +8,10 @@ $email    = "";
 $errors = array(); 
 
 // connect to the database
-define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'supportReddy');
-   define('DB_PASSWORD', '');
-   define('DB_DATABASE', 'ecommerece');
+define('DB_SERVER', 'ecommerce-db-instance.crkfp60kehfn.ap-northeast-2.rds.amazonaws.com');
+   define('DB_USERNAME', 'root');
+   define('DB_PASSWORD', 'qwerty12');
+   define('DB_DATABASE', 'onlineshop');
    $db = mysqli_connect(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
 if (!$db) {
     die("Connection failed: " . mysqli_connect_error());
