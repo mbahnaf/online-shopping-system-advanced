@@ -1,8 +1,8 @@
 <?php
 
-$servername = "localhost";
+$servername = "ecommerce-db-instance.crkfp60kehfn.ap-northeast-2.rds.amazonaws.com";
 $username = "root";
-$password = "";
+$password = "qwerty12";
 $db = "onlineshop";
 
 // Create connection
